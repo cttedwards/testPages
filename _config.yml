@@ -91,6 +91,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
+      mathjax: true
       layout: single
       author_profile: true
 
