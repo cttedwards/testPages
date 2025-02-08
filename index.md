@@ -6,4 +6,4 @@ layout: splash
 author_profile: true
 ---
 
-This is the home page.
+This is the home page and it's great.
