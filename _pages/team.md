@@ -1,7 +1,7 @@
 ---
 permalink: /team/
 title: "Team"
-author_profile: false
+author_profile: true
 ---
 
 This is about the project team.
