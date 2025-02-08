@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Team"
+    url: /team/
+  - title: "Science"
+    url: /science/
+  - title: "Reports"
+    url: /reports/
   - title: "About"
     url: /about/
