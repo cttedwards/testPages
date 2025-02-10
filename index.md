@@ -16,7 +16,7 @@ feature_row:
     alt: "customizable"
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/sefraInputs/index"
+    url: "/sefraInputs/index.html"
     btn_class: "btn--primary"
     btn_label: "Input data"
   - image_path: /assets/images/seagull.jpg
