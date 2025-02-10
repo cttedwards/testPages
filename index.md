@@ -18,7 +18,7 @@ feature_row:
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/sefraInputs/index"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Input data"
   - image_path: /assets/images/seagull.jpg
     alt: "fully responsive"
     title: "Responsive layouts"
