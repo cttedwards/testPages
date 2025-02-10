@@ -95,6 +95,12 @@ defaults:
       mathjax: true
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: "_docs"
+      type: pages
+    values:
+      layout: single
 
 category_archive:
   type: liquid
