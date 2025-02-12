@@ -16,7 +16,7 @@ feature_row:
     alt: "data"
     title: "Input Data"
     excerpt: "View instructions for preparation of input data suited to analysis with the SEFRA model."
-    url: "/sefraInputs/index.html"
+    url: "/index/"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
   - image_path: /assets/images/seagull.jpg
