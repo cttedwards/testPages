@@ -9,8 +9,8 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/about/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2">Latest release v4.26.2</a></small>
+  Spatially explicit fisheries risk assessment for the southern bluefin tuna surface longline fishery.<br />
+  <small><a href="https://github.com/sefra-seabirds.">Latest release v4.26.2</a></small>
 feature_row:
   - image_path: /assets/images/seagull.jpg
     alt: "data"
@@ -19,20 +19,20 @@ feature_row:
     url: "/index/"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
-  - image_path: /assets/images/seagull.jpg
+  - image_path: /assets/images/ccsbt_logo.jpg
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    title: "Reports"
+    excerpt: "Run the model."
     url: "/reports/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/seagull.jpg
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    btn_label: "View reports"
+  - image_path: /assets/images/ccsbt_logo.jpg
+    alt: "reports"
+    title: "Reports"
+    excerpt: "Published documentation and meeting reports"
     url: "/reports/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "View reports"      
 ---
 
 {% include feature_row %}
