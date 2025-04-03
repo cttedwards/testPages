@@ -19,14 +19,14 @@ feature_row:
     url: "/index/"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
-  - image_path: /assets/images/ccsbt_logo.jpg
+  - image_path: /assets/images/ccsbt_logo.svg
     alt: "fully responsive"
     title: "Reports"
     excerpt: "Run the model."
     url: "/reports/"
     btn_class: "btn--primary"
     btn_label: "View reports"
-  - image_path: /assets/images/ccsbt_logo.jpg
+  - image_path: /assets/images/ccsbt_logo.svg
     alt: "reports"
     title: "Reports"
     excerpt: "Published documentation and meeting reports"
