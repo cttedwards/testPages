@@ -7,4 +7,4 @@ link: https://www.mpi.govt.nz/dmsdocument/59464/direct
 ---
 
 
-This theme supports **link posts**.
+This theme supports **link posts**.[link](#)
