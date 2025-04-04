@@ -10,7 +10,7 @@ excerpt: >
   <small><a href="https://github.com/sefra-seabirds">Organisation Home Page</a></small>
 feature_row:
   - title: "Input Data"
-    excerpt: "View instructions for preparation of input data suited to analysis with the SEFRA-seabirds model."
+    excerpt: "View instructions for preparation of input data."
     url: "/sefraInputs/"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
@@ -18,12 +18,8 @@ feature_row:
     excerpt: "View vignette describing execution of the SEFRA-seabirds model code."
     url: "/sefra/"
     btn_class: "btn--primary"
-    btn_label: "View reports"
-  - title: "Reports"
-    excerpt: "Published documentation and meeting reports"
-    url: "/reports/"
-    btn_class: "btn--primary"
-    btn_label: "View reports"      
+    btn_label: "View code" 
 ---
 
 {% include feature_row %}
+{% hide atom_feed %}
