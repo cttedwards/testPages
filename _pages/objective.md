@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /objective/
+title: "Research objective"
 author_profile: false
 ---
 
