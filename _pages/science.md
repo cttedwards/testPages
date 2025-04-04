@@ -2,12 +2,13 @@
 title: "Spatially Explicit Fisheries Risk Assessment"
 permalink: /science/
 layout: single
-author_profile: false
 ---
 
-The Spatially Explicit Fisheries Risk Assessment (SEFRA)[^1] framework has been developed and utilised in New Zealand and is now standard procedure for estimating the risk to seabirds from commercial fishing [^2][^3]. The approach is designed to accommodate multiple species and fisheries simultaneously, constructing risk profiles as a function of spatial and temporal overlap. Application has been primarily within the New Zealand Exclusive Economic Zone (EEZ), but, since seabirds can migrate widely across the southern hemisphere, a comprehensive assessment of the fisheries risk needs to account for all the fishing effort that may be encountered as they move through international waters. This, as well as the need to inform management outside of the New Zealand EEZ, has motivated application of the method in this wider context [^4][^5][^6][^7][^8][^9].
+<div align='justify'>
 
-The SEFRA approach is a quasi-spatial model where temporal and spatial overlap of the seabird distribution and fishing effort are used as a covariate with which to predict the captures. Parameterisation of the capture rate per unit of overlap occurs via a fit to fisheries observer capture data, and total captures are then calculated by multiplication of the total overlap (including the unobserved component) with this estimated rate (referred to as the catchability). Deaths are calculated from the predicted captures using a mortality multiplier that accounts for the probability of dead capture and cryptic mortality. Following estimation of the total deaths, the SEFRA approach attempts to quantify the risk using a limit reference point referred to as the Population Sustainability Threshold (PST)[^1]:
+The Spatially Explicit Fisheries Risk Assessment (SEFRA[^1]) framework has been developed and utilised in New Zealand and is now standard procedure for estimating the risk to seabirds from commercial fishing [^2],[^3]. The approach is designed to accommodate multiple species and fisheries simultaneously, constructing risk profiles as a function of spatial and temporal overlap. Application has been primarily within the New Zealand Exclusive Economic Zone (EEZ), but, since seabirds can migrate widely across the southern hemisphere, a comprehensive assessment of the fisheries risk needs to account for all the fishing effort that may be encountered as they move through international waters. This, as well as the need to inform management outside of the New Zealand EEZ, has motivated application of the method in this wider context [^4],[^5],[^6],[^7],[^8],[^9].
+
+The SEFRA approach is a quasi-spatial model where temporal and spatial overlap of the seabird distribution and fishing effort are used as a covariate with which to predict the captures. Parameterisation of the capture rate per unit of overlap occurs via a fit to fisheries observer capture data, and total captures are then calculated by multiplication of the total overlap (including the unobserved component) with this estimated rate (referred to as the catchability). Deaths are calculated from the predicted captures using a mortality multiplier that accounts for the probability of dead capture and cryptic mortality. Following estimation of the total deaths, the SEFRA approach attempts to quantify the risk using a limit reference point referred to as the Population Sustainability Threshold (PST[^1]):
 
 \begin{equation}
 \text{Risk ratio}=  \frac{\text{Deaths}}{\text{PST}}
@@ -120,6 +121,7 @@ Richard, Y.; Abraham, E.R.; Berkenbusch, K. (2017b). Assessment of the risk of c
 fisheries to New Zealand seabirds, 2006–07 to 2014–15: Supplementary information. New
 Zealand Aquatic Environment and Biodiversity Report No. 191S.
 
+</div>
 
 
 Roberts, J.; Webber, D.; Roe, W.; Edwards, C.T.T.; Doonan, I. (2019). Spatial risk assessment
