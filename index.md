@@ -11,12 +11,12 @@ excerpt: >
 feature_row:
   - title: "Input Data"
     excerpt: "View instructions for preparation of the input data."
-    url: "https://sefra-seabirds.github.io/sefraInputs"
+    url: "https://sefra-seabirds.github.io/docs/sefraInputs"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
   - title: "Model Code"
     excerpt: "View vignette describing execution of the model code."
-    url: "https://sefra-seabirds.github.io/sefra"
+    url: "https://sefra-seabirds.github.io/docs/sefra"
     btn_class: "btn--primary"
     btn_label: "View code" 
 ---
