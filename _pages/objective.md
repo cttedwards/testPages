@@ -14,11 +14,33 @@ The Commission for the Conservation of Southern Bluefin Tuna (CCSBT) is currentl
 
 The following seabird species are included in the current iteration of the risk assessment:
 
-| FAO code | Common name          | Scientific name                       |
-|----------|----------------------|---------------------------------------|
-| DIW      | Gibson's albatross   | *Diomedea antipodensis gibsoni*       |
-| DQS      | Antipodean albatross | *Diomedea antipodensis antipodensis*  |
-
+| FAO code | Common name                        | Scientific name                       |
+|----------|------------------------------------|---------------------------------------|
+| DIW      | Gibson's albatross                 | *Diomedea antipodensis gibsoni*       |
+| DQS      | Antipodean albatross               | *Diomedea antipodensis antipodensis*  |
+| DIX      | Wandering albatross                | *Diomedea exulans*                    |
+| DBN      | Tristan albatross                  | *Diomedea dabbenena*                  |
+| DAM      | Amsterdam albatross                | *Diomedea amsterdamensis*             |
+| DIP      | Southern royal albatross           | *Diomedea epomophora*                 |
+| DIQ      | Northern royal albatross           | *Diomedea sanfordi*                   |
+| DCR      | Atlantic yellow-nosed albatross    | *Thalassarche chlororhynchos*         |
+| TQH      | Indian yellow-nosed albatross      | *Thalassarche carteri*                |
+| DIM      | Black-browed albatross             | *Thalassarche melanophris*            |
+| TQW      | Campbell black-browed albatross    | *Thalassarche impavida*               |
+| DCU      | Shy albatross                      | *Thalassarche cauta*                  |
+| TWD      | New Zealand white-capped albatross | *Thalassarche cauta steadi*           |
+| DKS      | Salvin's albatross                 | *Thalassarche salvini*                |
+| DER      | Chatham Island albatross           | *Thalassarche eremita*                |
+| DIC      | Grey-headed albatross              | *Thalassarche chrysostoma*            |
+| DSB      | Southern Buller's albatross        | *Thalassarche bulleri bulleri*        |
+| DNB      | Northern Buller's albatross        | *Thalassarche bulleri platei*         |
+| PHU      | Sooty albatross                    | *Phoebetria fusca*                    |
+| PHE      | Light-mantled sooty albatross      | *Phoebetria palpebrata*               |
+| PCI      | Grey petrel                        | *Procellaria cinerea*                 |
+| PRK      | Black petrel                       | *Procellaria parkinsoni*              |
+| PCW      | Westland petrel                    | *Procellaria westlandica*             |
+| PRO      | White-chinned petrel               | *Procellaria aequinoctialis*          |
+| PCN      | Spectacled petrel                  | *Procellaria conspicillata*           |
 
 
 </div>
