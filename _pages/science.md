@@ -1,36 +1,28 @@
 ---
-title: "Science"
+title: "Spatially Explicit Fisheries Risk Assessment"
 permalink: /science/
 layout: single
 author_profile: false
 ---
 
-
-$$
-\sum_{k=3}^5 k^2=3^2 + 4^2 + 5^2 =50
-$$
-
-\subsection{Spatially Explicit Fisheries Risk Assessment}
 The Spatially Explicit Fisheries Risk Assessment (SEFRA) framework has been developed and utilised in New Zealand and is now standard procedure for estimating the risk to seabirds from commercial fishing \citep[e.g.,][]{Edwards2023sra,Richard2020sra,Richard2017sra,aebar2018,Richard2015sra}. The approach is designed to accommodate multiple species and fisheries simultaneously, constructing risk profiles as a function of spatial and temporal overlap. Application has been primarily within the New Zealand Exclusive Economic Zone (EEZ), but, since seabirds can migrate widely across the southern hemisphere, a comprehensive assessment of the fisheries risk needs to account for all the fishing effort that may be encountered as they move through international waters. This, as well as the need to inform management outside of the New Zealand EEZ, has motivated application of the method in this wider context \citep{Abraham2017shra3,Abraham2017shra1,Abraham2017shra2,Ochi2018,Abraham2019shra,Edwards2023shra,CCSBT2024}.[^1]
 
 The SEFRA approach is a quasi-spatial model where temporal and spatial overlap of the seabird distribution and fishing effort are used as a covariate with which to predict the captures. Parameterisation of the capture rate per unit of overlap occurs via a fit to fisheries observer capture data, and total captures are then calculated by multiplication of the total overlap (including the unobserved component) with this estimated rate (referred to as the catchability). Deaths are calculated from the predicted captures using a mortality multiplier that accounts for the probability of dead capture and cryptic mortality. Following estimation of the total deaths, the SEFRA approach attempts to quantify the risk using a limit reference point referred to as the Population Sustainability Threshold \citep[PST;][]{aebar2018}:
-\begin{subequations}
-\begin{equation}
+$$
 \text{Risk ratio}=  \frac{\text{Deaths}}{\text{PST}}
-\end{equation}
-\begin{equation}
-\mathrm{PST} =  \frac{1}{2} \cdot \phi \cdot \rmax \cdot N
-\end{equation}
-\end{subequations}
-where $\phi$ is an adjustment used by management to ensure that deaths equal to the PST correspond to a defined population stabilisation or recovery objective; $\rmax$ is the theoretical unconstrained maximum population growth rate (i.e., under optimal conditions and in the absence of density dependent constraints); and, $N$ is the population size for that species.
+$$
+$$
+\mathrm{PST} =  \frac{1}{2} \cdot \phi \cdot r_{\mathrm{max}} \cdot N
+$$
+where $\phi$ is an adjustment used by management to ensure that deaths equal to the PST correspond to a defined population stabilisation or recovery objective; $r_{\mathrm{max}}$ is the theoretical unconstrained maximum population growth rate (i.e., under optimal conditions and in the absence of density dependent constraints); and, $N$ is the population size for that species.
 
 If $N$ is the total population size, then it is possible to underestimate the impact of fishing if only a subset of the population is exposed. For the New Zealand context, it was recommended by an independent review that modelling should focus on the adult population only, as there was observed to be a dearth of juvenile captures in domestic fisheries \citep{Lonergan2017}. This decision can also be influenced by data availability, such as the inadequacy of biological and distributional information from immature birds, as well as ambiguity in capture data caused by difficulty in distinguishing maturity stage. For recent domestic applications of SEFRA, $N$ therefore refered to the adult population size \citep[e.g.,][]{Edwards2023sra}. The southern hemisphere assessment of \cite{Edwards2023shra} applied the same assumption, whereas \cite{Ochi2018}, for example, assumed that $N$ referred to the total population size.
 
-The PST estimates the total amount of additional death a population can sustain (above natural mortality) whilst still meeting the population recovery goal. However, deaths estimated by SEFRA are typically only a subset of the total anthropogenic mortality. This is most obvious when only a subset of the total fishing effort is being included, but there may also be non-fishery related deaths that are not accounted for. When the deaths estimated by SEFRA correspond to an unknown proportion of total deaths, then comparing those deaths to the PST may be misleading, and not represent a true indication of the prospects for long-term population viability. However, it is still the case that $\rmax$ and $N$ are important for determining the relative risk between species: for a given number of deaths a large or productive population can be considered at lower risk, all else being equal. For instances in which the risk ratio cannot be properly calculated, we instead use a relative mortality measure:
+The PST estimates the total amount of additional death a population can sustain (above natural mortality) whilst still meeting the population recovery goal. However, deaths estimated by SEFRA are typically only a subset of the total anthropogenic mortality. This is most obvious when only a subset of the total fishing effort is being included, but there may also be non-fishery related deaths that are not accounted for. When the deaths estimated by SEFRA correspond to an unknown proportion of total deaths, then comparing those deaths to the PST may be misleading, and not represent a true indication of the prospects for long-term population viability. However, it is still the case that $r_{\mathrm{max}}$ and $N$ are important for determining the relative risk between species: for a given number of deaths a large or productive population can be considered at lower risk, all else being equal. For instances in which the risk ratio cannot be properly calculated, we instead use a relative mortality measure:
 \begin{equation}
-\text{Relative mortality}=  \frac{\text{Deaths}}{\rmax \cdot N} \label{eqn:relmort}
+\text{Relative mortality}=  \frac{\text{Deaths}}{r_{\mathrm{max}} \cdot N} \label{eqn:relmort}
 \end{equation}
-where $\rmax \cdot N$ is equal to the theoretical maximum growth rate in numbers per year. The relative mortality approach still provides the same relative ranking as that achieved using the PST reference point, because the $\phi$ term is typically assumed to be the same for all species during comparative assessments. 
+where $r_{\mathrm{max}} \cdot N$ is equal to the theoretical maximum growth rate in numbers per year. The relative mortality approach still provides the same relative ranking as that achieved using the PST reference point, because the $\phi$ term is typically assumed to be the same for all species during comparative assessments. 
 
 %The population size $N$ is estimated by the model but constained by empirical data. It needs to be defined according to assumptions made about the nature of interactions in the assessed fishery. For the New Zealand context, it was recommended that modelling should focus on the adult population only, as there was observed to be a dearth of juvenile captures in domestic fisheries \citep{Lonergan2017}. This decision can also be influenced by data availability, such as the inadequacy of biological and distributional information from immature birds, as well as ambiguity in capture data caused by difficulty in distinguishing maturity stage. For recent domestic applications of SEFRA, $N$ therefore refers to the adult population size \citep[e.g.,][]{Edwards2023sra}. The southern hemisphere assessment of \cite{Edwards2023shra} applied the same assumption, whereas \cite{Ochi2018}, for example, assumed that $N$ referred to the total population size. %Population size information for birds usually refers to the number of breeding adults \citep[e.g.,][]{Edwards2024shra2,Peatman2023sra}, and if it were required to convert this to the total population size then an assumption of survivorship from birth to maturity would be needed. If captures are assumed to be taken from all population age classes, then the total population size can be calculated from the adult appopulation size using this survivorship assumption \citep[e.g.,][]{Ochi2018}.
 
