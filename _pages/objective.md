@@ -11,6 +11,8 @@ The incidental catch of charismatic mega-fauna by fisheries, particularly on the
 
 The Commission for the Conservation of Southern Bluefin Tuna (CCSBT) is currently undertaking work to apply the SEFRA framework to surface longline fisheries in the southern hemisphere, to assess the impact of these fisheries on seabirds.     
 
+<style>body {text-align: left}</style>
+
 The following seabird species are included in the current iteration of the risk assessment:
 
 | FAO code | Common name                        | Scientific name                       |
