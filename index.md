@@ -26,9 +26,7 @@ feature_row:
     url: "/reports/"
     btn_class: "btn--primary"
     btn_label: "View reports"
-  - image_path: /assets/images/ccsbt_logo.svg
-    alt: "reports"
-    title: "Reports"
+  - title: "Reports"
     excerpt: "Published documentation and meeting reports"
     url: "/reports/"
     btn_class: "btn--primary"
