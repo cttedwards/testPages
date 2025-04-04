@@ -1,10 +1,11 @@
 ---
 permalink: /objective/
 title: "Research objective"
-author_profile: false
 ---
 
 <img src='/assets/images/seabird.jpg' align="right" height="140" />
+
+![Hooked seabird](/assets/images/seabird.jpg)
 
 <div align='justify'>
 
