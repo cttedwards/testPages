@@ -5,25 +5,18 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/albatross.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/about/"
 excerpt: >
   Spatially explicit fisheries risk assessment for the southern bluefin tuna surface longline fishery.<br />
-  <small><a href="https://github.com/sefra-seabirds.">Latest release v4.26.2</a></small>
+  <small><a href="https://github.com/sefra-seabirds">Organisation Home Page</a></small>
 feature_row:
-  - image_path: /assets/images/seagull.jpg
-    alt: "data"
-    title: "Input Data"
-    excerpt: "View instructions for preparation of input data suited to analysis with the SEFRA model."
-    url: "/index/"
+  - title: "Input Data"
+    excerpt: "View instructions for preparation of input data suited to analysis with the SEFRA-seabirds model."
+    url: "/sefraInputs/"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
-  - image_path: /assets/images/ccsbt_logo.svg
-    alt: "fully responsive"
-    title: "Reports"
-    excerpt: "Run the model."
-    url: "/reports/"
+  - title: "Model Code"
+    excerpt: "View vignette describing execution of the SEFRA-seabirds model code."
+    url: "/sefra/"
     btn_class: "btn--primary"
     btn_label: "View reports"
   - title: "Reports"
