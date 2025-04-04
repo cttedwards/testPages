@@ -11,7 +11,7 @@ excerpt: >
 feature_row:
   - title: "Input Data"
     excerpt: "View instructions for preparation of input data."
-    url: "/sefraInputs/"
+    url: "https://sefra-seabirds.github.io/sefraInputs"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
   - title: "Model Code"
