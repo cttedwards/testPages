@@ -15,7 +15,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Prepare data"
   - title: "Model Code"
-    excerpt: "View vignette describing execution of the SEFRA-seabirds model code."
+    excerpt: "View vignette describing execution of the model code."
     url: "/sefra/"
     btn_class: "btn--primary"
     btn_label: "View code" 
