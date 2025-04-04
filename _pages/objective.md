@@ -3,7 +3,7 @@ permalink: /objective/
 title: "Research objective"
 ---
 
-<img src='/assets/images/seabird.jpg' align="right" height="140" />
+<img src='{{site.url}}/assets/images/seabird.jpg' align="right" height="140" />
 
 ![Hooked seabird](/assets/images/seabird.jpg)
 
