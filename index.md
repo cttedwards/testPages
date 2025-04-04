@@ -22,4 +22,3 @@ feature_row:
 ---
 
 {% include feature_row %}
-{% hide atom_feed %}
