@@ -10,13 +10,13 @@ excerpt: >
   <small><a href="https://github.com/sefra-seabirds">Organisation Home Page</a></small>
 feature_row:
   - title: "Input Data"
-    excerpt: "View instructions for preparation of input data."
+    excerpt: "View instructions for preparation of the input data."
     url: "https://sefra-seabirds.github.io/sefraInputs"
     btn_class: "btn--primary"
     btn_label: "Prepare data"
   - title: "Model Code"
     excerpt: "View vignette describing execution of the model code."
-    url: "/sefra/"
+    url: "https://sefra-seabirds.github.io/sefra"
     btn_class: "btn--primary"
     btn_label: "View code" 
 ---
