@@ -36,6 +36,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
   - _docs
+  - assets
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -94,7 +95,7 @@ defaults:
     values:
       mathjax: true
       layout: single
-      author_profile: true
+      author_profile: false
   # _docs
   - scope:
       path: "_docs"
